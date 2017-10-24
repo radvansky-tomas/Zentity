@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4155310A1E55BEA200F6BCBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 415531091E55BEA200F6BCBF /* main.m */; };
+		4155310D1E55BEA200F6BCBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4155310C1E55BEA200F6BCBF /* AppDelegate.m */; };
+		415531101E55BEA200F6BCBF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4155310F1E55BEA200F6BCBF /* MainViewController.m */; };
+		415531151E55BEA200F6BCBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415531141E55BEA200F6BCBF /* Assets.xcassets */; };
+		415531201E55C1F400F6BCBF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4155311F1E55C1F400F6BCBF /* MainViewController.xib */; };
+		415531221E55C49F00F6BCBF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415531211E55C49F00F6BCBF /* Launch Screen.storyboard */; };
+		415531241E55C51000F6BCBF /* RowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 415531231E55C51000F6BCBF /* RowTableViewCell.xib */; };
+		4155312C1E55C53300F6BCBF /* book_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 415531261E55C53300F6BCBF /* book_new.png */; };
+		4155312D1E55C53300F6BCBF /* book_new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 415531271E55C53300F6BCBF /* book_new@2x.png */; };
+		4155312E1E55C53300F6BCBF /* book_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 415531281E55C53300F6BCBF /* book_shadow.png */; };
+		4155312F1E55C53300F6BCBF /* book_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 415531291E55C53300F6BCBF /* book_shadow@2x.png */; };
+		415531301E55C53300F6BCBF /* shelfcell_bgr.png in Resources */ = {isa = PBXBuildFile; fileRef = 4155312A1E55C53300F6BCBF /* shelfcell_bgr.png */; };
+		415531311E55C53300F6BCBF /* shelfcell_bgr@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4155312B1E55C53300F6BCBF /* shelfcell_bgr@2x.png */; };
+		415531331E55C91200F6BCBF /* RowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 415531321E55C91200F6BCBF /* RowTableViewCell.m */; };
+		415531361E55D15900F6BCBF /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 415531351E55D15900F6BCBF /* Book.m */; };
+		4155313A1E55D3DD00F6BCBF /* BookParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 415531391E55D3DD00F6BCBF /* BookParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		415531051E55BEA200F6BCBF /* Zentity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zentity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		415531091E55BEA200F6BCBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4155310B1E55BEA200F6BCBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4155310C1E55BEA200F6BCBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4155310E1E55BEA200F6BCBF /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4155310F1E55BEA200F6BCBF /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		415531141E55BEA200F6BCBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		415531191E55BEA200F6BCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4155311F1E55C1F400F6BCBF /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		415531211E55C49F00F6BCBF /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
+		415531231E55C51000F6BCBF /* RowTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RowTableViewCell.xib; sourceTree = "<group>"; };
+		415531261E55C53300F6BCBF /* book_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book_new.png; sourceTree = "<group>"; };
+		415531271E55C53300F6BCBF /* book_new@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book_new@2x.png"; sourceTree = "<group>"; };
+		415531281E55C53300F6BCBF /* book_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book_shadow.png; sourceTree = "<group>"; };
+		415531291E55C53300F6BCBF /* book_shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book_shadow@2x.png"; sourceTree = "<group>"; };
+		4155312A1E55C53300F6BCBF /* shelfcell_bgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shelfcell_bgr.png; sourceTree = "<group>"; };
+		4155312B1E55C53300F6BCBF /* shelfcell_bgr@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shelfcell_bgr@2x.png"; sourceTree = "<group>"; };
+		415531321E55C91200F6BCBF /* RowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowTableViewCell.m; sourceTree = "<group>"; };
+		415531341E55C92100F6BCBF /* RowTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RowTableViewCell.h; sourceTree = "<group>"; };
+		415531351E55D15900F6BCBF /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		415531371E55D16000F6BCBF /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		415531381E55D3D100F6BCBF /* BookParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookParser.h; sourceTree = "<group>"; };
+		415531391E55D3DD00F6BCBF /* BookParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		415531021E55BEA100F6BCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		415530FC1E55BEA100F6BCBF = {
+			isa = PBXGroup;
+			children = (
+				415531071E55BEA200F6BCBF /* Zentity */,
+				415531061E55BEA200F6BCBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		415531061E55BEA200F6BCBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				415531051E55BEA200F6BCBF /* Zentity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		415531071E55BEA200F6BCBF /* Zentity */ = {
+			isa = PBXGroup;
+			children = (
+				4155313D1E55EDF100F6BCBF /* UI */,
+				4155313C1E55EDE300F6BCBF /* Helpers */,
+				4155313B1E55EDDC00F6BCBF /* Model */,
+				415531251E55C51C00F6BCBF /* Assets */,
+				4155310B1E55BEA200F6BCBF /* AppDelegate.h */,
+				4155310C1E55BEA200F6BCBF /* AppDelegate.m */,
+				415531191E55BEA200F6BCBF /* Info.plist */,
+				415531081E55BEA200F6BCBF /* Supporting Files */,
+			);
+			path = Zentity;
+			sourceTree = "<group>";
+		};
+		415531081E55BEA200F6BCBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				415531091E55BEA200F6BCBF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		415531251E55C51C00F6BCBF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				415531141E55BEA200F6BCBF /* Assets.xcassets */,
+				415531261E55C53300F6BCBF /* book_new.png */,
+				415531271E55C53300F6BCBF /* book_new@2x.png */,
+				415531281E55C53300F6BCBF /* book_shadow.png */,
+				415531291E55C53300F6BCBF /* book_shadow@2x.png */,
+				4155312A1E55C53300F6BCBF /* shelfcell_bgr.png */,
+				4155312B1E55C53300F6BCBF /* shelfcell_bgr@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		4155313B1E55EDDC00F6BCBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				415531351E55D15900F6BCBF /* Book.m */,
+				415531371E55D16000F6BCBF /* Book.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4155313C1E55EDE300F6BCBF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				415531381E55D3D100F6BCBF /* BookParser.h */,
+				415531391E55D3DD00F6BCBF /* BookParser.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		4155313D1E55EDF100F6BCBF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4155313E1E55EE0200F6BCBF /* Views */,
+				4155310E1E55BEA200F6BCBF /* MainViewController.h */,
+				4155310F1E55BEA200F6BCBF /* MainViewController.m */,
+				4155311F1E55C1F400F6BCBF /* MainViewController.xib */,
+				415531211E55C49F00F6BCBF /* Launch Screen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		4155313E1E55EE0200F6BCBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				415531231E55C51000F6BCBF /* RowTableViewCell.xib */,
+				415531321E55C91200F6BCBF /* RowTableViewCell.m */,
+				415531341E55C92100F6BCBF /* RowTableViewCell.h */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		415531041E55BEA100F6BCBF /* Zentity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4155311C1E55BEA200F6BCBF /* Build configuration list for PBXNativeTarget "Zentity" */;
+			buildPhases = (
+				415531011E55BEA100F6BCBF /* Sources */,
+				415531021E55BEA100F6BCBF /* Frameworks */,
+				415531031E55BEA100F6BCBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zentity;
+			productName = Zentity;
+			productReference = 415531051E55BEA200F6BCBF /* Zentity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		415530FD1E55BEA100F6BCBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tomas Radvansky";
+				TargetAttributes = {
+					415531041E55BEA100F6BCBF = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = SGVY646LPP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 415531001E55BEA100F6BCBF /* Build configuration list for PBXProject "Zentity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 415530FC1E55BEA100F6BCBF;
+			productRefGroup = 415531061E55BEA200F6BCBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				415531041E55BEA100F6BCBF /* Zentity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		415531031E55BEA100F6BCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4155312C1E55C53300F6BCBF /* book_new.png in Resources */,
+				415531241E55C51000F6BCBF /* RowTableViewCell.xib in Resources */,
+				4155312D1E55C53300F6BCBF /* book_new@2x.png in Resources */,
+				415531221E55C49F00F6BCBF /* Launch Screen.storyboard in Resources */,
+				415531151E55BEA200F6BCBF /* Assets.xcassets in Resources */,
+				415531311E55C53300F6BCBF /* shelfcell_bgr@2x.png in Resources */,
+				415531301E55C53300F6BCBF /* shelfcell_bgr.png in Resources */,
+				415531201E55C1F400F6BCBF /* MainViewController.xib in Resources */,
+				4155312E1E55C53300F6BCBF /* book_shadow.png in Resources */,
+				4155312F1E55C53300F6BCBF /* book_shadow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		415531011E55BEA100F6BCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415531361E55D15900F6BCBF /* Book.m in Sources */,
+				4155313A1E55D3DD00F6BCBF /* BookParser.m in Sources */,
+				415531331E55C91200F6BCBF /* RowTableViewCell.m in Sources */,
+				415531101E55BEA200F6BCBF /* MainViewController.m in Sources */,
+				4155310D1E55BEA200F6BCBF /* AppDelegate.m in Sources */,
+				4155310A1E55BEA200F6BCBF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4155311A1E55BEA200F6BCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4155311B1E55BEA200F6BCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4155311D1E55BEA200F6BCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SGVY646LPP;
+				INFOPLIST_FILE = Zentity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomas.radvansky.Zentity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4155311E1E55BEA200F6BCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SGVY646LPP;
+				INFOPLIST_FILE = Zentity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomas.radvansky.Zentity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		415531001E55BEA100F6BCBF /* Build configuration list for PBXProject "Zentity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4155311A1E55BEA200F6BCBF /* Debug */,
+				4155311B1E55BEA200F6BCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4155311C1E55BEA200F6BCBF /* Build configuration list for PBXNativeTarget "Zentity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4155311D1E55BEA200F6BCBF /* Debug */,
+				4155311E1E55BEA200F6BCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 415530FD1E55BEA100F6BCBF /* Project object */;
+}
